@@ -41,6 +41,7 @@ function Cadastrar_Time (){
     }
     times_no_torneio.push (Ingressar_Time ())
 
+    
     //Com o seguinte vou selecionar os times com mais titulos e fazer um grupo especial com eles:
 
     for (let i=0; i<times_no_torneio.length;i++){ //Aqui determino qual o valor máximo de títulos que algum time alguma vez atingiu
@@ -83,12 +84,12 @@ function Cadastrar_Time (){
 
     if (grupo_dos_mais_ganhadores.length===1){ //Só um time
         var Mensagem3 = document.createElement ('p') 
-        Mensagem3.textContent = `O time com mais títulos é ${grupo_dos_mais_ganhadores[0]} com ${mais_ganhador} títulos`
+        Mensagem3.textContent = `----- O time com mais títulos é ${grupo_dos_mais_ganhadores[0]} com ${mais_ganhador} títulos -----`
         Mensagens.appendChild (Mensagem3) 
     }
     else{
         var Mensagem4 = document.createElement ('p')
-        Mensagem4.textContent = `Os times com mais títulos são: `+lista_ganhadora+ ` com ${mais_ganhador} títulos`
+        Mensagem4.textContent = `----- Os times com mais títulos são: `+lista_ganhadora+ ` com ${mais_ganhador} títulos -----`
         Mensagens.appendChild (Mensagem4) 
     }
 
