@@ -8,15 +8,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Vamos fazer um torneio de futebol!</h1>
-    <h2>Com clubes convidados de todo o mundo!</h2>
-    <section>
-    <img src="Images/Soccer-tournament.jpg" alt="Logo do torneio" width="300">
+    <header>
+    <h1>COPA CHAMPION SOCCER</h1>
+    <h2>Com clubes convidados de todo o mundo</h2>
+    <section id="Banner">
+        <p>Faça a inscrição dos times aqui!</p>
+        <img id="gif_bola" src="Images/ball.gif" alt="Logo do torneio">
+        <img src="Images/Banner-torneio.jpg" alt="Logo do torneio">
     </section>
-    <script src="script.js"></script>
-    <button type="button" onclick="Mensagens_no_HTML ()">Clickar para ver informação aqui também</button>
-    <div>
+    </header>
+    <h3>Para inscrever um novo time no torneio, por favor preencher o seguinte formulario:</h3>
 
+    <form onsubmit="Cadastrar_Time ()" id="Formulario_Novo_Time">
+        <div>
+        <label>
+            Nome do time
+            <input type="text" id="Nome" placeholder="Exemplo F.C." required> 
+        </label>
+        <label>
+            País de origem
+            <input type="text" id="Origem" placeholder="Colômbia" required> 
+        </label>
+        <label>
+            Número de títulos conseguidos
+            <input type="text" id="Titulos" placeholder="Escreva um número" required> 
+        </label>
+        </div>
+        <div>
+            <button type="submit" id="Botão_Adicionar_Time">Inscrever</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+    <h3>Os times inscritos até o momento são:</h3>
+
+    <ul id="Lista_de_participantes">
+        
+    </ul>
+    
+    <div id="info">
+        
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,4 +1,114 @@
-section{
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*fim do reset*/
+
+html{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: whitesmoke
+}
+
+h1{
+    color: whitesmoke;
+    background-color: rgb(207, 79, 20);
+    font-size: 44px;
     display: flex;
-    padding-bottom: 30px;
+    justify-content: center;
+    padding: 1.3vw;
+}
+
+h2{
+    background-color: rgb(220, 220, 220);
+    color: rgb(207, 79, 20);
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+}
+
+#Banner{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    background-color: rgb(255, 166, 64);
+}
+
+section p{
+    align-self: center;
+    margin-left: 3vw;
+    font-size: 30px;
+    color: white;
+    width: 16vw;
+}
+
+#gif_bola{
+}
+
+h3{
+    margin: 3vw;
+    font-size: 21px;
+}
+
+form{
+    margin: 3vw;
+    font-size: 17px;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+}
+
+form div:nth-child(2){
+    padding: 3vw;
+}
+
+button{
+    padding: 20px 80px 20px 80px;
+    font-size: 17px;
+}
+
+li {
+    background-color: brown;
 }
