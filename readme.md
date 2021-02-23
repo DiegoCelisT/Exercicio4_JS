@@ -1,5 +1,5 @@
-Vamos criar um torneio de futebol, vão ser ingresados os dados de "nome do time", "pais de origem", e "quantidade de títulos obtidos"
+Vamos criar um torneio de futebol, em um formulario vão ser ingresados os dados de "nome do time", "pais de origem", e "quantidade de títulos obtidos"
 
-Desse grupo, vamos procurar o(s) time(s) com mais títulos e dar mensagens para cada caso.
+Vai ser adicionada algo de interatividade para ver instantaneamente os resultados dos registros na página como uma lista.
 
-Também criei um botão no HTML para ver as informações também aí!
+Vamos procurar o(s) time(s) com mais títulos e dar uma mensagen para cada caso.
